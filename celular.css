@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+*{
+    font-family: "Be Vietnam Pro";
+}
+@media (max-width: 900px){
+nav{
+    display: none;
+}
+.Contacto{
+    display: none;
+}   
+.fa-regular fa-bars{
+color: black;
+}
+.img2{
+
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-left: 50px;
+}
+.bars{
+    margin-top: 30px;
+    margin-right: 50px;
+
+}
+.fa-sharp fa-solid fa-bars{
+    height: 50px;
+    width: 50px;
+}
+.main1{
+    margin-left: 20px;
+    margin-right:20px ;
+}
+.IMAGEN{
+    width: 100%;
+}
+.main11{
+    
+    text-align: right;
+    color: #232C50;
+    font-size: 50px;
+}
+.pmain{
+    
+    text-align: right;
+   
+    font-size: 16.56px;
+}
+.contact{
+    text-align: right;
+}
+.boton1{
+    background-color: blueviolet;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13.18px;
+}
+.main2{
+    margin-top: 4vh;
+    background-color: #3CDDF3;
+}
+.section2{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    
+}
+.titulomain2{
+    width: 60vw;
+    margin-left: 20px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.pmain2{
+text-align:justify;
+margin-left: 20px;
+margin-right: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.main3{
+   margin-left: 40px;
+}
+.titulo1main3{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    font-size: 16px;
+    color: #323851;
+    background-color: #8B48BF4D;
+}
+.input1main3{
+    
+    width: 5%;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+}
+
+.input2main3{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+}
+
+.input3main3{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+}
+.pmain3{
+    text-align: left;
+    margin-right: 55px;
+    color:#B3B2B7;
+}
+.main4{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.titulomain4{
+    font-size: 40px;
+    text-align: center;
+    color: #242E53;
+
+}
+.divmain4{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+.img3{
+    position: relative;
+    top: -30px;
+    border-radius: 50%;
+}
+.h4main4{
+    font-size: 16px;
+    text-align: center;
+    color: #242E53;
+}
+.pmain4{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #B9B9C1;
+}
+.boton2{
+    
+    background-color: blueviolet;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13.18px;
+}
+.more{
+    margin-top: 10%;
+    text-align: center;
+}
+.main5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 10%;
+    background-color: #3CDDF3;
+}
+.titulomain5{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.boton3{
+    background-color: #232C50;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13.18px;
+}
+footer{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+    
+    background-color: black;
+}
+.inputfooter{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 50px;
+}
+.email{
+    
+    font-size: 13.18px;
+    
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+}
+.boton4{
+    background-color: blueviolet;
+   
+    height: 40px;
+    width: 60px;
+    font-size: 13.18px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    
+}
+.listafooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 130px;
+    padding: 15px;
+    list-style: none;
+color: #FFFFFF;
+}
+.listados{
+    margin-top: 12px;
+}
+.logos{
+display: flex;
+justify-content: space-around   ;
+}
+.logos2{
+    margin-top: 10%;
+    text-align: center;
+color: #FFFFFF;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+color: #8C8C94;
+}
+}
