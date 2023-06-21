@@ -3,6 +3,9 @@
     font-family: "Be Vietnam Pro";
 }
 @media (max-width: 900px){
+    a:hover{
+        background-color:rgba(98, 7, 202, 0.6);
+    }
 nav{
     display: none;
 }
@@ -73,8 +76,8 @@ h1{
     
 }
 .titulomain2{
-    width: 60vw;
-    margin-left: 20px;
+text-align: left;
+margin-left: 5%;
     font-size: 36px;
     color: #FFFFFF;
 }
@@ -86,12 +89,12 @@ margin-right: 20px;
     color: #FFFFFF;
 }
 .main3{
+    margin-top: 15%;
    margin-left: 40px;
 }
 .titulo1main3{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    
     font-size: 16px;
     color: #323851;
     background-color: #8B48BF4D;
@@ -177,13 +180,14 @@ margin-right: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 300px;
+    height: 100%;
     margin-top: 10%;
     background-color: #3CDDF3;
 }
 .titulomain5{
-    margin-left: 90px;
-    margin-right: 90px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: 40px;
     color: #FFFFFF;
 }
@@ -191,6 +195,7 @@ margin-right: 20px;
 .boton3{
     background-color: #232C50;
     padding: 10px;
+    margin-bottom: 25%;
     width: 100px;
     border-radius: 50px;
     color: #FFFFFF;
@@ -207,23 +212,23 @@ footer{
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+margin-right: 10%;
 margin-top: 50px;
 }
 .email{
     
     font-size: 13.18px;
-    
     height: 40px;
-    width: 300px;
+    width: 100%;
     border-radius: 50px;
 }
 .boton4{
     background-color: blueviolet;
-   
     height: 40px;
     width: 60px;
     font-size: 13.18px;
     border-radius: 50px;
+    
     color: #FFFFFF;
     
 }
