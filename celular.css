@@ -3,17 +3,36 @@
     font-family: "Be Vietnam Pro";
 }
 @media (max-width: 900px){
-    a:hover{
-        background-color:rgba(98, 7, 202, 0.6);
+   a:link{
+    text-decoration: none;
+   }
+    input:hover{
+        background-color: rgba(182, 32, 228, 0.7);
+    }    
+    .span1{
+        display: none;
     }
 nav{
     display: none;
 }
 .Contacto{
-    display: none;
+    color: #FAFAFA;
 }   
-.fa-regular fa-bars{
-color: black;
+.a1{
+    display: none;
+}
+.div1{
+    display: none;
+}
+.div3{
+    display: none;
+}
+.a2{
+   text-decoration:none;
+    position: relative;
+    color: #FFFFFF;
+    left: 25%;
+    bottom: 15px;
 }
 .img2{
 
@@ -31,10 +50,7 @@ h1{
     margin-right: 50px;
 
 }
-.fa-sharp fa-solid fa-bars{
-    height: 50px;
-    width: 50px;
-}
+
 .main1{
     margin-left: 20px;
     margin-right:20px ;
@@ -92,10 +108,14 @@ margin-right: 20px;
     margin-top: 15%;
    margin-left: 40px;
 }
+.divmain3{
+    display: flex;
+    justify-content: space-between;
+}
 .titulo1main3{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    font-size: 16px;
+    font-size: 15px;
     color: #323851;
     background-color: #8B48BF4D;
 }
@@ -173,7 +193,14 @@ margin-right: 20px;
 }
 .more{
     margin-top: 10%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.more2{
+    position: relative;
+right: 50%;
+bottom: 14px;
+color:white;
 }
 .main5{
     display: flex;
@@ -239,7 +266,7 @@ margin-top: 50px;
     align-content: space-around;
     flex-wrap: wrap;
     height: 130px;
-    padding: 15px;
+    padding: 10px;
     list-style: none;
 color: #FFFFFF;
 }
